@@ -27,7 +27,7 @@ let downDirection = false;
 let inGame = true;    
 
 const DELAY = 140;
-const MAX_RAND = 29;
+//const MAX_RAND = 29;
 const CELL_SIZE = 10;
 const CANVAS_WIDTH = 300; 
 const CANVAS_HEIGHT = 300;
@@ -133,10 +133,19 @@ function gameOver() {
     canvasContext.fillText('Game over', CANVAS_WIDTH/2, CANVAS_HEIGHT/2);
 }
 
-function locateApple(){
 
 
-}
+// function locateApple(squares){
+//     do{
+
+//         appIndex=Math.floor(Math.random()* squares.length);
+
+//     }
+//     while
+//     (squares[appIndex].classList.contains("snake"));
+//     squares[appIndex].classList.add("apple");
+
+// }
 
 
 function checkApple() {
